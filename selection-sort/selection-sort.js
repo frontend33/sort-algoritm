@@ -4,7 +4,7 @@ const SelectionSort = (arr) => {
 
         for (let j = i; j < arr.length; j++) {
             if (arr[j] < arr[smallestIdx]) {
-                smallestIdx=[j]
+                smallestIdx = j
             }
         }
 
